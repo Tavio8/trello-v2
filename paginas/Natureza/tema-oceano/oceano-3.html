@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="oceano.css">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Clone do Trello</title>
+</head>
+<body style="background-image: url(oceano/funda-oceano-3.jpg);">
+    <header>
+        <h1>Área de Trabalho</h1>
+        <div>
+            <menu>
+                    <ul>
+                        <li><img id="menu" src="imagens/menu.png" alt="menu" onclick="menu()"></li>
+                        <li><img id="inicio" src="imagens/inicio.png" alt="quem-somos" onclick="qm()"></li>
+                        <li><img id="pesquisa" src="imagens/pesquisa.png" alt="pesquisa" onclick="pesquisa()"></li>
+                        <li><img id="conta" src="imagens/conta.png" alt="conta" onclick="conta()"></li>
+                    </ul>
+            </menu>
+        </div>
+    </header>
+    <nav>
+        <div>
+            <ul>
+                <li><h2>Interações</h2></li>
+                <li><img src="imagens/adicionar.png" alt="adicionar" id="add"></li>
+                <li><img src="imagens/excluir.png" alt="excluir" onclick="excluirall()"></li>
+            </ul>
+        </div>
+    </nav>
+    <div id="listas" style="position: sticky; left: 8.5%;">
+        <h2 id="lt">Suas Listas de Tarefa</h2>
+        <div id="tarefas">
+        </div>    
+    </div>
+    <script src="oceano.js"></script>
+</body>
+</html>
