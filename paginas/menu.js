@@ -77,4 +77,13 @@ function temaAleatorioUniverso(){
 function universo(){
     location.href = temaAleatorioUniverso();
 }
+//NATUREZA-FIM-------------------------------------------------------------------
 
+//ARTES----------------------------------------------------------------------
+function temaAleatorioCampo(){
+    const num = Math.floor(Math.random() * 5)+1;
+    return `Natureza/tema-campo/campo-${num}.html`;
+}
+function campo(){
+    location.href = temaAleatorioCampo();
+}
