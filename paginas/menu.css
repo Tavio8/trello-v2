@@ -1,10 +1,67 @@
 @charset "UTF-8";
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
 
-body > h1{
+body{
+    background-image: url(fundo-menu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#titulo{
+    background-image: linear-gradient(to bottom, rgba(59, 3, 77, 0.425), rgba(15, 0, 71, 0.473));
     text-align: center;
+    color: rgba(98, 184, 233, 0.815);
+}
+
+button{
+    border-style: none;
+    border-radius: 35%;
+    height: 50px;
+    width: 210px;
+    margin: 12px;
+    background-color: transparent;
+    color: rgb(220, 183, 255);
 }
 
 article{
     column-count: 4;
+    column-gap: 10px;
+    column-rule: 10px dashed rgb(43, 2, 77);
+    text-align: center;
+}
+
+#natureza{
+    background-image: url(Natureza/fundo-menu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: center;
+    color: rgb(92, 248, 92);
+}
+
+#arte{
+    background-image: url(Arte/fundo-menu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: left;
+    color: rgb(255, 123, 163);
+}
+
+#internet{
+    background-image: url(Internet/fundo-menu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: center center;
+    color: rgb(95, 243, 186);
+}
+
+#animais{
+    background-image: url(Animais/fundo-menu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: center center;
+    color: rgb(236, 225, 67);
 }
