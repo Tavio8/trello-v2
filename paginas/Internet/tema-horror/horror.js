@@ -3,11 +3,11 @@ let numQuadros = 0;
 
  //-----Cor Aleatoria-----------------------------------------------------------------------------------
 function gerarCorAleatoria() {
-    const greenValue = Math.floor(Math.random() * 256);
-    const r = Math.floor(Math.random() * 30);
-    const b = Math.floor(Math.random() * 30);
+    const g = 0;
+    const r = 0;
+    const b = Math.floor(Math.random() * 30)+50;
     const a = 0.875;
-    return `rgb(${r}, ${greenValue}, ${b}, ${a})`;
+    return `rgb(${r}, ${g}, ${b}, ${a})`;
 }
 function criarQuadro() {
   const texto = prompt("Digite o título do quadro:");

@@ -22,15 +22,15 @@ button{
     border-radius: 35%;
     height: 50px;
     width: 210px;
-    margin: 31.1px;
+    margin: 12px;
     background-color: transparent;
-    color: rgb(220, 183, 255);
+    color: rgb(255, 255, 255);
 }
 
 article{
     column-count: 4;
     column-gap: 10px;
-    column-rule: 10px dashed rgb(43, 2, 77);
+    column-rule: 10px dashed rgb(2, 35, 77);
     text-align: center;
 }
 
@@ -47,7 +47,7 @@ article{
     background-repeat: no-repeat;
     background-size: cover;
     position: left;
-    color: rgb(229, 206, 255);
+    color: rgb(245, 196, 211);
 }
 
 #internet{

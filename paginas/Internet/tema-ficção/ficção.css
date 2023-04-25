@@ -13,8 +13,8 @@ body{
 }
  
 header{
-    color: rgb(112, 72, 255);
-    background-image: linear-gradient(to top, rgba(14, 3, 44, 0.815), rgba(31, 20, 134, 0.884),rgba(77, 46, 255, 0.829));
+    color: rgb(163, 128, 204);
+    background-image: linear-gradient(to top, rgba(36, 3, 44, 0.815), rgba(104, 68, 26, 0.884),rgba(45, 16, 53, 0.829));
 }
 
 header>h1{
@@ -49,8 +49,8 @@ img#inicio{
 }
 
 div#listas{
-  color: #0d012b;
-  background-image: linear-gradient(to top, rgba(68, 0, 255, 0.685), rgba(26, 23, 236, 0.651), rgba(105, 32, 241, 0.623), rgba(22, 2, 112, 0.664), rgba(4, 3, 83, 0.719));
+  color: #573f72;
+  background-image: linear-gradient(to top, rgba(27, 9, 43, 0.685), rgba(38, 19, 49, 0.651), rgba(110, 61, 21, 0.623), rgba(49, 4, 70, 0.664), rgba(39, 8, 53, 0.719));
   text-align: center;
 }
 
@@ -134,10 +134,10 @@ nav >  div > ul > li{
 
   nav{
     text-align: center;
-    background-image: linear-gradient(to bottom, rgba(15, 3, 44, 0.801), rgba(21, 2, 43, 0.795), rgba(20, 2, 43, 0.788), rgba(24, 3, 83, 0.842));
-    color: rgb(112, 72, 255);
+    background-image: linear-gradient(to bottom, rgba(41, 3, 44, 0.801), rgba(90, 56, 13, 0.795), rgba(65, 50, 10, 0.788), rgba(40, 16, 54, 0.842));
+    color: rgb(221, 170, 236);
   }
 
   #lt{
-    color: rgb(112, 72, 255);
+    color: rgb(203, 149, 224);
   }
