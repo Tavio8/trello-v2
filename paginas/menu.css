@@ -30,7 +30,7 @@ button{
 article{
     column-count: 4;
     column-gap: 10px;
-    column-rule: 10px dashed rgb(43, 2, 77);
+    column-rule: 10px dashed rgb(2, 35, 77);
     text-align: center;
 }
 
