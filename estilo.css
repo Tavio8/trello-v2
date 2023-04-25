@@ -4,7 +4,6 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-
 }
 
 body{
@@ -12,11 +11,13 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
  
 header{
     color: rgb(112, 72, 255);
     background-image: linear-gradient(to top, rgba(14, 3, 44, 0.815), rgba(31, 20, 134, 0.884),rgba(77, 46, 255, 0.829));
-}
+  }
 
 header>h1{
     text-align: center;
