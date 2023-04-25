@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+*{
+    text-align: center;
+}
+
+main{
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color: aqua;
+}
