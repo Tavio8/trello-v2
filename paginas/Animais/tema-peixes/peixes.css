@@ -13,7 +13,7 @@ body{
 }
  
 header{
-    color: rgb(112, 72, 255);
+    color: rgb(72, 145, 255);
     background-image: linear-gradient(to top, rgba(14, 3, 44, 0.815), rgba(31, 20, 134, 0.884),rgba(77, 46, 255, 0.829));
 }
 
@@ -135,9 +135,9 @@ nav >  div > ul > li{
   nav{
     text-align: center;
     background-image: linear-gradient(to bottom, rgba(15, 3, 44, 0.801), rgba(21, 2, 43, 0.795), rgba(20, 2, 43, 0.788), rgba(24, 3, 83, 0.842));
-    color: rgb(112, 72, 255);
+    color: rgb(72, 145, 255);
   }
 
   #lt{
-    color: rgb(112, 72, 255);
+    color: rgb(72, 182, 255);
   }

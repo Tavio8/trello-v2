@@ -3,9 +3,9 @@ let numQuadros = 0;
 
  //-----Cor Aleatoria-----------------------------------------------------------------------------------
 function gerarCorAleatoria() {
-    const g = Math.floor(Math.random() * 256);
-    const r = Math.floor(Math.random() * 30);
-    const b = Math.floor(Math.random() * 30);
+    const g = 0;
+    const r = Math.floor(Math.random() * 55)+200;
+    const b = 180;
     const a = 0.875;
     return `rgb(${r}, ${g}, ${b}, ${a})`;
 }
